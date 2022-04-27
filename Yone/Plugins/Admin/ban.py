@@ -115,7 +115,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         
         unban_keyboard = InlineKeyboardMarkup([[
             InlineKeyboardButton(
-                "🔘 Unban", callback_data="un_ban({})".format(user_id))
+                "Unban (admin only)", callback_data="un_ban({})".format(user_id))
         ]])
         # bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         reply = (

@@ -119,7 +119,7 @@ def warn(
             [
                 [
                     InlineKeyboardButton(
-                        "🔘 Remove warn", callback_data=f"rm_warn({user.id})",
+                        "Remove warn (admin only)", callback_data=f"rm_warn({user.id})",
                     ),
                 ],
             ],
